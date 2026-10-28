@@ -1,0 +1,9 @@
+TechStore Online
+Cliente: Ana
+Producto: Laptop Gamer
+Cantidad: 1
+Subtotal: 1800000
+Descuento: 0
+Total: 1800000
+Método de pago: Tarjeta
+Estado: confirmada
