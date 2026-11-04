@@ -1,6 +1,6 @@
 # TechStore Online
 
-Proyecto final de Patrones de Software desarrollado para la tienda online TechStore.
+Proyecto final de Patrones de Software desarrollado para la tienda tecnológica online TechStore.
 
 ## Descripción
 
