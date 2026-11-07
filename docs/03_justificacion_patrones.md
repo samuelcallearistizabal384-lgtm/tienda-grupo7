@@ -7,8 +7,8 @@ Este patrón se emplea para gestionar de manera centralizada la creación de obj
 ## 2. Strategy
 Su función es encapsular distintos algoritmos o reglas de negocio, como cálculos de descuentos o métodos de procesamiento. Esto permite intercambiar comportamientos específicos sin afectar el resto del sistema.
 
-## 3. Observer
-Este patrón facilita la comunicación entre componentes cuando ocurre un cambio relevante. Por ejemplo, puede utilizarse para informar actualizaciones de inventario o modificaciones en el estado de una venta a otros módulos interesados.
+## 3. Decorator
+Este patrón permite añadir funcionalidades adicionales a un producto o proceso sin modificar su estructura principal. Puede utilizarse para aplicar descuentos, promociones o impuestos de forma flexible y reutilizable.
 
 ## 4. Ventajas obtenidas
 Reducción del acoplamiento entre componentes.
