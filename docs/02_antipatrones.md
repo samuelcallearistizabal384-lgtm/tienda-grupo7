@@ -1,22 +1,22 @@
 # Antipatrones detectados
 
-Durante el análisis del sistema de venta de TechStore se identifican algunos antipatrones que pueden afectar la calidad del diseño.
+Durante la revisión del sistema de ventas de TechStore se identificaron distintas deficiencias de diseño que podrían afectar el correcto desarrollo y mantenimiento del sistema.
 
 ## 1. Objeto Dios
 
-Cuando una única clase concentra la lógica de productos, clientes, ventas y pagos, el sistema se vuelve difícil de mantener y probar. Esto daña la escalabilidad del proyecto.
+Cuando una sola clase reúne la gestión de productos, clientes, ventas y pagos, el sistema se vuelve más complejo de mantener y verificar. Esto limita el crecimiento y la capacidad de expansión del proyecto.
 
 ## 2. Copia y pega de lógica
 
-La duplicación de bloques de lógica para validar precios, stock o descuentos puede generar inconsistencias y errores difíciles de ver.
+La repetición de fragmentos de código destinados a comprobar precios, existencias o descuentos puede provocar inconsistencias y fallos difíciles de detectar.
 
 ## 3. Acoplamiento fuerte
 
-Si una clase dependiente conoce demasiados detalles internos de otra, los cambios son costosos y cada modificación puede dañar varias partes del sistema.
+Cuando una clase depende de un conocimiento excesivo sobre el funcionamiento interno de otra, cualquier cambio resulta más complejo y puede afectar múltiples componentes del sistema.
 
 ## 4. Falta de encapsulamiento
-Errores y dificulta la evolución.
+Puede ocasionar fallos y complicar el desarrollo futuro del sistema.
 
 ## 5. Solución propuesta
 
-El proyecto busca evitar estos problemas usando separación de responsabilidades, encapsulamiento y patrones de comportamiento como Factory method, Strategy y Observer según la necesidad del caso de uso.
+El objetivo del proyecto es prevenir estos inconvenientes mediante la división adecuada de responsabilidades, el uso del encapsulamiento y la implementación de patrones de diseño como Factory Method, Strategy y Observer, según las necesidades de cada caso de uso.
