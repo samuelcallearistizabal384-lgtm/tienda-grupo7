@@ -3,8 +3,8 @@
 ## 1. Datos del cliente
 
 - Nombre: TechStore Online
-- Tipo: tienda de tecnología y electrónica
-- Perfil: público general con interés en dispositivos, accesorios y equipos informáticos
+- Tipo: Tienda de tecnología y electrónica
+- Perfil: Público general con interés en dispositivos, accesorios y equipos informáticos
 
 ## 2. Necesidades del cliente
 
