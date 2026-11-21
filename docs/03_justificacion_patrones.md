@@ -2,12 +2,57 @@
 La arquitectura propuesta para TechStore Online incorpora diversos patrones de diseño con el propósito de mejorar la organización del sistema, facilitar su mantenimiento y permitir futuras ampliaciones de forma más sencilla.
 
 ## 1. Factory Method
-Este patrón se emplea para gestionar de manera centralizada la creación de objetos relacionados con productos o procesos de venta. Gracias a ello, es posible incorporar nuevos tipos sin alterar significativamente la lógica principal de la aplicación.
-
+UBICACION:class ProductoFactory {
+public:
+    static shared_ptr<ProductoBase> crearProducto(...)
+Líneas 47–54
+PROBLEMA QUE RESUELVE:
+Evita que el sistema tenga que crear objetos específicos directamente mediante
+new ProductoHardware(...)
+new ProductoLicenciaDigital(...)
+new ProductoGarantia(...)
+EVIDENCIA DE FLUJO:
+auto p = ProductoFactory::crearProducto(
+1    tipo,
+2    cod,
+3   nom,
+4   precio,
+5    stock
+);
+Línea 193
 ## 2. Strategy
+## UBICACION:
+class EstrategiaPago
+class PagoTarjeta
+class PagoTransferencia
+class PagoPasarelaExterna
+Líneas 321–326
+PROBLEMA QUE RESUELVE:
+Cada método de pago tiene una regla diferente.
+## Sin Strategy:
+if (...)
+else if (...)
+else if (...)
+## Con strategy:
+estrategia->procesarPago()
+## Beneficio
+Agregar nuevos métodos de pago sin modificar el código existente:
+PagoPayPal
+PagoNequi
+PagoPSE
+PagoBitcoin
+
 Su función es encapsular distintos algoritmos o reglas de negocio, como cálculos de descuentos o métodos de procesamiento. Esto permite intercambiar comportamientos específicos sin afectar el resto del sistema.
 
 ## 3. Decorator
+## UBICACION:
+class ItemVenta
+class ItemConcreto
+class ImpuestoDecorator
+class IVAdecorator
+class ImpuestoDigitalDecorator
+Líneas 58–63
+
 Este patrón permite añadir funcionalidades adicionales a un producto o proceso sin modificar su estructura principal. Puede utilizarse para aplicar descuentos, promociones o impuestos de forma flexible y reutilizable.
 
 ## 4. Ventajas obtenidas
