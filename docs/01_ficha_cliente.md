@@ -34,3 +34,25 @@
 - Arquitectura modular.
 - Uso de patrones de diseño apropiados.
 - Compatibilidad con compiladores estándar de C++.
+- 6. Historias de usuario
+
+## Registrar productos
+Como administrador de la tienda, quiero registrar productos tecnológicos en el sistema, para mantener actualizado el catálogo disponible para la venta.
+
+## Consultar inventario
+Como administrador de la tienda, quiero consultar el inventario de productos, para conocer la disponibilidad y cantidad de artículos existentes.
+
+## Realizar ventas
+Como vendedor, quiero registrar una venta indicando el producto y la cantidad, para procesar correctamente las compras de los clientes.
+
+## Aplicar impuestos automáticamente
+Como administrador de la tienda, quiero que el sistema aplique automáticamente los impuestos correspondientes según el tipo de producto, para obtener un cálculo correcto del valor final de la compra.
+
+## Seleccionar método de pago
+Como vendedor, quiero seleccionar diferentes métodos de pago durante una venta, para ofrecer varias alternativas a los clientes y procesar la transacción correctamente.
+
+## Controlar el stock
+Como administrador de la tienda, quiero que el sistema actualice automáticamente el stock después de cada venta, para mantener información precisa sobre las existencias disponibles.
+
+## Generar reportes de ventas
+Como administrador de la tienda, quiero consultar reportes financieros de las ventas realizadas, para llevar un control de los ingresos del negocio.
