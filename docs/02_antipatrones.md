@@ -19,4 +19,4 @@ Puede ocasionar fallos y complicar el desarrollo futuro del sistema.
 
 ## 5. Solución propuesta
 
-El objetivo del proyecto es prevenir estos inconvenientes mediante la división adecuada de responsabilidades, el uso del encapsulamiento y la implementación de patrones de diseño como Factory Method, Strategy y Observer, según las necesidades de cada caso de uso.
+El objetivo del proyecto es prevenir estos inconvenientes mediante la división adecuada de responsabilidades, el uso del encapsulamiento y la implementación de patrones de diseño como Factory Method, Strategy y Decorator, según las necesidades de cada caso de uso.
