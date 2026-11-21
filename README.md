@@ -1,6 +1,15 @@
-# TechStore Online
+# TechStore Online V1
 
-Proyecto final de Patrones de Software desarrollado para la tienda tecnológica online TechStore.
+Proyecto final de Patrones de Software 
+
+Sistema de gestión para una tienda tecnológica que permite registrar productos, administrar inventario, procesar ventas y generar reportes financieros mediante la implementación de patrones de diseño.
+
+## INTEGRANTES
+1.Erick Santiago Loaiza ocampo
+2.Samuel Calle Aristizabal
+
+## Objetivo
+Desarrollar una aplicación de consola para la gestión de una tienda tecnológica aplicando patrones de diseño que mejoren la mantenibilidad, escalabilidad y reutilización del código.
 
 ## Descripción
 
@@ -28,6 +37,4 @@ g++ v1/main.cpp -o techstore
 ./techstore
 ```
 
-## Objetivo del proyecto
 
-Demostrar cómo el uso correcto de patrones de diseño mejora la mantenibilidad, la extensibilidad y la claridad del código en un sistema de e-commerce.
